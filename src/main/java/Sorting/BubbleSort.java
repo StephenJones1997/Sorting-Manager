@@ -3,7 +3,7 @@ package Sorting;
 public class BubbleSort {
 
 
-    int[] sort(int[] array) {
+    public static void sort(int[] array) {
         boolean swapping = true;
         while(swapping)
         {
@@ -19,14 +19,5 @@ public class BubbleSort {
                 }
             }
         }
-
-        return array;
-
-//        StringBuilder sb = new StringBuilder();
-//        for (int s:array)
-//        {
-//            sb.append(s);
-//        }
-//        System.out.println(sb.toString());
     }
 }
