@@ -7,6 +7,5 @@ public class Main {
         MergeSort sort = new MergeSort();
         int[] array = {5,6,4,7,1,3};
         sort.mergeSort(array);
-        System.out.println("hello");
     }
 }
