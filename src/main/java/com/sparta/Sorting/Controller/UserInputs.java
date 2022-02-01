@@ -1,14 +1,11 @@
-package com.sparta.Sorting;
+package com.sparta.Sorting.Controller;
 
+import com.sparta.Sorting.Model.SortInterface;
 import org.reflections.Reflections;
-import org.reflections.scanners.MemberUsageScanner;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.HashMap;
-import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
+
 
 public class UserInputs {
 
@@ -16,8 +13,6 @@ public class UserInputs {
     {
         Reflections reflections = new Reflections("com.sparta.Sorting");
         Set<Class<? extends SortInterface>> classes = reflections.getSubTypesOf(SortInterface.class);
-
-        classes.toArray();
         int j=0;
         for(Class<? extends SortInterface> i: classes)
         {
@@ -32,7 +27,7 @@ public class UserInputs {
         }
         else
         {
-            System.out.println("Input is too long, using 0");
+            System.out.println("Input is too high, using 0");
             return 0;
         }
     }
@@ -41,7 +36,6 @@ public class UserInputs {
     {
         System.out.println("Input number for the sort type you want to use");
         Scanner scan = new Scanner(System.in);
-        int incoming = scan.nextInt();
-        return incoming;
+        return scan.nextInt();
     }
 }

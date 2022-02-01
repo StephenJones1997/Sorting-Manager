@@ -1,6 +1,6 @@
-package com.sparta.Sorting;
+package com.sparta.Sorting.Model;
 
-public class MergeSort implements SortInterface{
+public class MergeSort implements SortInterface {
 
 
     @Override

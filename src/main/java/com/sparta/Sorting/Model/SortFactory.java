@@ -1,4 +1,4 @@
-package com.sparta.Sorting;
+package com.sparta.Sorting.Model;
 
 public class SortFactory {
 
@@ -14,6 +14,10 @@ public class SortFactory {
             SI = new MergeSort();
         }
 
+        if(SI == null)
+        {
+            SI = new BubbleSort();
+        }
         return SI.getInstance();
     }
 }

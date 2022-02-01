@@ -1,5 +1,8 @@
-package com.sparta.Sorting;
+package com.sparta.Sorting.View;
 
+import com.sparta.Sorting.Controller.UserInputs;
+import com.sparta.Sorting.Model.SortFactory;
+import com.sparta.Sorting.Model.SortInterface;
 
 public class Main {
 

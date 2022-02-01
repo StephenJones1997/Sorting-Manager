@@ -1,8 +1,6 @@
-package com.sparta.Sorting;
+package com.sparta.Sorting.Model;
 
 public class BubbleSort implements SortInterface {
-
-
     @Override
     public SortInterface getInstance() {
         return new BubbleSort();
@@ -24,5 +22,6 @@ public class BubbleSort implements SortInterface {
                 }
             }
         }
+        System.out.println();
     }
 }
