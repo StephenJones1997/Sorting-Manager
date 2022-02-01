@@ -1,9 +1,14 @@
-package Sorting;
+package com.sparta.Sorting;
 
-public class BubbleSort {
+public class BubbleSort implements SortInterface {
 
 
-    public static void sort(int[] array) {
+    @Override
+    public SortInterface getInstance() {
+        return new BubbleSort();
+    }
+
+    public void sort(int[] array) {
         boolean swapping = true;
         while(swapping)
         {

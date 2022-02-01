@@ -1,9 +1,14 @@
-package Sorting;
+package com.sparta.Sorting;
 
-public class MergeSort{
+public class MergeSort implements SortInterface{
 
 
-    public void mergeSort(int[] inputArray) {
+    @Override
+    public SortInterface getInstance() {
+        return new MergeSort();
+    }
+
+    public void sort(int[] inputArray) {
         int inputLength = inputArray.length;
 
         if (inputLength < 2) {
@@ -21,8 +26,8 @@ public class MergeSort{
             rightHalf[i - midIndex] = inputArray[i];
         }
 
-        mergeSort(leftHalf);
-        mergeSort(rightHalf);
+        sort(leftHalf);
+        sort(rightHalf);
 
         merge(inputArray, leftHalf, rightHalf);
     }

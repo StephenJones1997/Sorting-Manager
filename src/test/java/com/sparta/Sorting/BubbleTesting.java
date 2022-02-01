@@ -1,7 +1,5 @@
 package com.sparta.Sorting;
 
-import Sorting.BubbleSort;
-import Sorting.MergeSort;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.testng.annotations.Test;

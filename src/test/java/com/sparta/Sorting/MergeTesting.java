@@ -1,7 +1,5 @@
 package com.sparta.Sorting;
 
-import Sorting.BubbleSort;
-import Sorting.MergeSort;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.testng.annotations.Test;
@@ -16,7 +14,7 @@ public class MergeTesting {
         int[] correctInts = {1,7,9,10,10,12,15,16,16,18};
 
         MergeSort s = new MergeSort();
-        s.mergeSort(integers);
+        s.sort(integers);
         Assertions.assertArrayEquals(integers, correctInts);
     }
     @Test
@@ -27,7 +25,7 @@ public class MergeTesting {
         int[] correctInts = {-16,-10,1,7,9,10,12,15,16,18};
 
         MergeSort s = new MergeSort();
-        s.mergeSort(integers);
+        s.sort(integers);
         Assertions.assertArrayEquals(integers, correctInts);
     }
 
@@ -40,7 +38,7 @@ public class MergeTesting {
 
         MergeSort s = new MergeSort();
 
-        s.mergeSort(integers);
+        s.sort(integers);
         Assertions.assertArrayEquals(integers, correctInts);
     }
 }
