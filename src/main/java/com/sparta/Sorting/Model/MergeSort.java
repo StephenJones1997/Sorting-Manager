@@ -8,6 +8,11 @@ public class MergeSort implements SortInterface {
         return new MergeSort();
     }
 
+    @Override
+    public String toString()
+    {
+        return "Merge Sort";
+    }
     public void sort(int[] inputArray) {
         int inputLength = inputArray.length;
 

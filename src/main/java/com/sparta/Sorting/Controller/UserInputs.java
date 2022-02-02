@@ -3,39 +3,44 @@ package com.sparta.Sorting.Controller;
 import com.sparta.Sorting.Model.SortInterface;
 import org.reflections.Reflections;
 
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 
 public class UserInputs {
 
-    public int returnInputtedType()
+    public int[] returnInputtedType(int amountOfSorts)
     {
-        Reflections reflections = new Reflections("com.sparta.Sorting");
-        Set<Class<? extends SortInterface>> classes = reflections.getSubTypesOf(SortInterface.class);
-        int j=0;
-        for(Class<? extends SortInterface> i: classes)
-        {
-            System.out.println(j + ": " + i.getSimpleName());
-            j++;
-        }
+        System.out.println("Enter the number for the sorting type you would like");
 
-        int incoming = returnInt();
-        if(classes.toArray().length >= incoming)
+        Scanner scan = new Scanner(System.in);
+        int sizeToUse = scan.nextInt();
+        if(sizeToUse > amountOfSorts)
         {
-            return incoming;
+            sizeToUse = amountOfSorts;
         }
-        else
+        int[] array = new int[sizeToUse];
+
+        System.out.println("Enter each sort method you would like to use");
+        for (int i = 0; i < sizeToUse; i++)
         {
-            System.out.println("Input is too high, using 0");
-            return 0;
+            array[i] = scan.nextInt();
         }
+        return array;
     }
 
-    private int returnInt()
+    public int[] ArrayInformation()
     {
-        System.out.println("Input number for the sort type you want to use");
         Scanner scan = new Scanner(System.in);
-        return scan.nextInt();
+        System.out.println("Enter the Size of the Array");
+        int arraySize = scan.nextInt();
+        System.out.println("Enter each number you want to search");
+
+        int[] array = new int[arraySize];
+        for (int i = 0; i < arraySize; i++)
+        {
+            array[i] = scan.nextInt();
+        }
+
+        return array;
     }
 }

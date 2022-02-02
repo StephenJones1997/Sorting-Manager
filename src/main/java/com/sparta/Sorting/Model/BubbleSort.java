@@ -6,6 +6,12 @@ public class BubbleSort implements SortInterface {
         return new BubbleSort();
     }
 
+    @Override
+    public String toString()
+    {
+        return "Bubble Sort";
+    }
+
     public void sort(int[] array) {
         boolean swapping = true;
         while(swapping)
