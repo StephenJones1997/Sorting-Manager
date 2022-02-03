@@ -50,14 +50,10 @@ public class SortingManager {
         return j;
     }
 
-    private static String convertArray(int[] incoming)
+    public static String convertArray(int[] incoming)
     {
         StringBuilder SB = new StringBuilder();
-
-        for(int i: incoming)
-        {
-            SB.append(i + " ");
-        }
+        for(int i: incoming) {SB.append(i + " ");}
         return SB.toString();
     }
 }

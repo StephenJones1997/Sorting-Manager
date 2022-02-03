@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.testng.annotations.Test;
 
+import java.util.HashMap;
+
 public class FactoryTesting {
 
     @Test
@@ -31,6 +33,14 @@ public class FactoryTesting {
         boolean equals = SI.getClass().equals(ms.getClass());
 
         Assertions.assertTrue(equals);
+    }
+
+    @Test
+    @DisplayName("Check that all the sorting methods are returned")
+    void returnEnumTypes()
+    {
+        SortFactory sf = new SortFactory();
+        HashMap<Integer, String> info = sf.returnAvailableTypes();
     }
 
 
