@@ -8,11 +8,11 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.*;
 
-public class Main {
+public class DisplayManager {
     public static Logger logger = LogManager.getLogger("Sort Manager Logger");
 
     public static void main(String[] args) {
-        logger.warn("hello");
+
 
         SortFactory SI = new SortFactory();
         UserInputs ui = new UserInputs();
@@ -39,9 +39,14 @@ public class Main {
             }
             else
             {
+                Long currentTime = System.nanoTime();
                 sortMethod.sort(arrayToSortDupe);
+                Long newtime = System.nanoTime();
+                Long CompleteTime = newtime - currentTime;
                 System.out.println(sortMethod);
                 System.out.println(convertArray(arraytoSort) + ":" + convertArray(arrayToSortDupe));
+                System.out.println("It took " + CompleteTime + " Nanoseconds");
+                logger.info("User Ran " + sortMethod + ", it took " + CompleteTime + " milliseconds, for an array with " + convertArray(arraytoSort));
                 l.add(i);
             }
         }

@@ -1,24 +1,11 @@
-FILE [WARN ] 2022-02-02 14:18:03,458 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 14:21:02,224 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 14:21:23,156 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 14:49:59,570 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 14:53:29,041 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 14:53:37,994 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 14:53:59,883 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 14:54:23,551 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 14:54:28,979 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 14:59:14,435 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:05:20,258 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:05:38,680 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:11:50,122 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:12:09,493 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:12:34,478 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:33:18,837 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:34:26,455 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:34:59,993 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:37:55,280 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:39:45,727 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:44:47,678 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:45:48,144 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:47:42,537 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-02 15:47:54,237 main Sort Manager Logger - hello
+FILE [WARN ] 2022-02-03 09:55:24,137 main Sort Manager Logger - hello
+FILE [WARN ] 2022-02-03 09:59:45,909 main Sort Manager Logger - hello
+FILE [INFO ] 2022-02-03 10:00:00,419 main Sort Manager Logger - Info
+FILE [INFO ] 2022-02-03 10:00:00,420 main Sort Manager Logger - Info
+FILE [INFO ] 2022-02-03 10:08:54,673 main Sort Manager Logger - User Ran Bubble Sort, it took 62800 milliseconds, for an array with5 3 4 2 1 
+FILE [INFO ] 2022-02-03 10:08:54,676 main Sort Manager Logger - User Ran Merge Sort, it took 7800 milliseconds, for an array with5 3 4 2 1 
+FILE [INFO ] 2022-02-03 10:43:31,714 main Sort Manager Logger - User Ran Bubble Sort, it took 142500 milliseconds, for an array with 5 4 6 3 1 2 
+FILE [INFO ] 2022-02-03 10:43:31,721 main Sort Manager Logger - User Ran Merge Sort, it took 8100 milliseconds, for an array with 5 4 6 3 1 2 
+FILE [INFO ] 2022-02-03 11:05:19,101 main Sort Manager Logger - Bubble Sort timing test ran in 26800 for an array size of +10
+FILE [INFO ] 2022-02-03 11:05:19,106 main Sort Manager Logger - Bubble Sort timing test ran in 143800 for an array size of +100
+FILE [INFO ] 2022-02-03 11:05:19,108 main Sort Manager Logger - Bubble Sort timing test ran in 1005400 for an array size of +1000
