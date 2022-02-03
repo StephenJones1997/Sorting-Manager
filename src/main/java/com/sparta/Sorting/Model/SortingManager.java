@@ -6,10 +6,11 @@ import static com.sparta.Sorting.View.DisplayManager.logger;
 
 public class SortingManager {
 
-    public static void runSort(int[] searchs, int[] arraytoSort)
+    public static String runSort(int[] searchs, int[] arraytoSort)
     {
         List l = new ArrayList();
         SortFactory SI = new SortFactory();
+        StringBuilder sb = new StringBuilder();
         for(int i: searchs)
         {
             int[] arrayToSortDupe = arraytoSort.clone();
@@ -26,12 +27,15 @@ public class SortingManager {
                 Long newtime = System.nanoTime();
                 Long CompleteTime = newtime - currentTime;
                 System.out.println(sortMethod);
+                sb.append(sortMethod);
                 System.out.println(convertArray(arraytoSort) + ":" + convertArray(arrayToSortDupe));
                 System.out.println("It took " + CompleteTime + " Nanoseconds");
                 logger.info("User Ran " + sortMethod + ", it took " + CompleteTime + " milliseconds, for an array with " + convertArray(arraytoSort));
                 l.add(i);
             }
         }
+
+        return  sb.toString();
     }
 
 

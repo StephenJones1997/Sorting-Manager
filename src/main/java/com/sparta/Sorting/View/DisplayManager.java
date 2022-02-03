@@ -16,8 +16,6 @@ public class DisplayManager {
 
     public static void main(String[] args) {
 
-        System.out.println("Starting");
-
         SortFactory SI = new SortFactory();
         UserInputs ui = new UserInputs();
         //Display the Available Search Methods
