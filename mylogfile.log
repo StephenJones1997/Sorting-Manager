@@ -1,11 +1,18 @@
-FILE [WARN ] 2022-02-03 09:55:24,137 main Sort Manager Logger - hello
-FILE [WARN ] 2022-02-03 09:59:45,909 main Sort Manager Logger - hello
-FILE [INFO ] 2022-02-03 10:00:00,419 main Sort Manager Logger - Info
-FILE [INFO ] 2022-02-03 10:00:00,420 main Sort Manager Logger - Info
-FILE [INFO ] 2022-02-03 10:08:54,673 main Sort Manager Logger - User Ran Bubble Sort, it took 62800 milliseconds, for an array with5 3 4 2 1 
+FILE [INFO ] 2022-02-03 10:08:54,673 main Sort Manager Logger - User Ran Bubble Sort, it took 62800 milliseconds, for an array with5 3 4 2 1
 FILE [INFO ] 2022-02-03 10:08:54,676 main Sort Manager Logger - User Ran Merge Sort, it took 7800 milliseconds, for an array with5 3 4 2 1 
 FILE [INFO ] 2022-02-03 10:43:31,714 main Sort Manager Logger - User Ran Bubble Sort, it took 142500 milliseconds, for an array with 5 4 6 3 1 2 
 FILE [INFO ] 2022-02-03 10:43:31,721 main Sort Manager Logger - User Ran Merge Sort, it took 8100 milliseconds, for an array with 5 4 6 3 1 2 
 FILE [INFO ] 2022-02-03 11:05:19,101 main Sort Manager Logger - Bubble Sort timing test ran in 26800 for an array size of +10
 FILE [INFO ] 2022-02-03 11:05:19,106 main Sort Manager Logger - Bubble Sort timing test ran in 143800 for an array size of +100
 FILE [INFO ] 2022-02-03 11:05:19,108 main Sort Manager Logger - Bubble Sort timing test ran in 1005400 for an array size of +1000
+FILE [INFO ] 2022-02-03 11:54:23,334 main Sort Manager Logger - User Ran Bubble Sort, it took 56600 milliseconds, for an array with 6 1 3 4 
+FILE [WARN ] 2022-02-03 11:59:51,279 main Sort Manager Logger - Bubble Sort timing test ran in 144400 for an array size of +10
+FILE [WARN ] 2022-02-03 12:00:27,940 main Sort Manager Logger - Bubble Sort timing test ran in 181500 for an array size of +10
+FILE [WARN ] 2022-02-03 12:00:27,946 main Sort Manager Logger - Bubble Sort timing test ran in 128800 for an array size of +100
+FILE [WARN ] 2022-02-03 12:00:27,947 main Sort Manager Logger - Bubble Sort timing test ran in 120200 for an array size of +1000
+FILE [WARN ] 2022-02-03 12:00:52,739 main Sort Manager Logger - Merge Sort timing test ran in 24900 for an array size of +10
+FILE [WARN ] 2022-02-03 12:00:52,747 main Sort Manager Logger - Merge Sort timing test ran in 646200 for an array size of +100
+FILE [WARN ] 2022-02-03 12:00:52,750 main Sort Manager Logger - Merge Sort timing test ran in 793300 for an array size of +1000
+FILE [INFO ] 2022-02-03 15:04:37,694 main Sort Manager Logger - User Ran Bubble Sort, it took 54400 milliseconds, for an array with 3 4 1 2 
+FILE [INFO ] 2022-02-03 15:04:37,698 main Sort Manager Logger - User Ran Merge Sort, it took 6200 milliseconds, for an array with 3 4 1 2 
+FILE [INFO ] 2022-02-03 15:09:37,503 main Sort Manager Logger - User Ran Merge Sort, it took 11300 milliseconds, for an array with 5 1 3 4 2 

@@ -32,7 +32,7 @@ public class MergeTiming {
         Long newtime = System.nanoTime();
         Long CompleteTime = newtime - currentTime;
         System.out.println("Merge Sort ran in " + CompleteTime);
-        logger.info("Merge Sort timing test ran in " + CompleteTime + " for an array size of +" + arrayToSort.length);
+        logger.warn("Merge Sort timing test ran in " + CompleteTime + " for an array size of +" + arrayToSort.length);
     }
 
 
@@ -51,7 +51,7 @@ public class MergeTiming {
         Long newtime = System.nanoTime();
         Long CompleteTime = newtime - currentTime;
         System.out.println("Merge Sort ran in " + CompleteTime);
-        logger.info("Merge Sort timing test ran in " + CompleteTime + " for an array size of +" + arrayToSort.length);
+        logger.warn("Merge Sort timing test ran in " + CompleteTime + " for an array size of +" + arrayToSort.length);
     }
 
 
@@ -70,6 +70,6 @@ public class MergeTiming {
         Long newtime = System.nanoTime();
         Long CompleteTime = newtime - currentTime;
         System.out.println("Merge Sort ran in " + CompleteTime);
-        logger.info("Merge Sort timing test ran in " + CompleteTime + " for an array size of +" + arrayToSort.length);
+        logger.warn("Merge Sort timing test ran in " + CompleteTime + " for an array size of +" + arrayToSort.length);
     }
 }

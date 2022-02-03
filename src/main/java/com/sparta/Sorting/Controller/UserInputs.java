@@ -13,7 +13,13 @@ public class UserInputs {
 
         Scanner scan = new Scanner(System.in);
         int sizeToUse = scan.nextInt();
-        if(sizeToUse > amountOfSorts)
+
+        if(sizeToUse == 0)
+        {
+            System.out.println("You have chose 0, changing to 1 so you can sort something");
+            sizeToUse = 1;
+        }
+        else if(sizeToUse > amountOfSorts)
         {
             sizeToUse = amountOfSorts;
         }

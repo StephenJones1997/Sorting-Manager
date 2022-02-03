@@ -26,8 +26,21 @@ public class FactoryTesting {
     void MergeSelect()
     {
         SortFactory sf = new SortFactory();
-        SortInterface SI = sf.returnSort(0);
+        SortInterface SI = sf.returnSort(1);
         MergeSort ms = new MergeSort();
+        boolean equals = SI.getClass().equals(ms.getClass());
+
+        Assertions.assertTrue(equals);
+    }
+
+
+    @Test
+    @DisplayName("Check when nothing is selected, Bubble is returned. Should not be possible though")
+    void NullSelect()
+    {
+        SortFactory sf = new SortFactory();
+        SortInterface SI = sf.returnSort(10);
+        BubbleSort ms = new BubbleSort();
         boolean equals = SI.getClass().equals(ms.getClass());
 
         Assertions.assertTrue(equals);
