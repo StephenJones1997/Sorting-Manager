@@ -23,7 +23,7 @@ public class UserInputs {
         for (int i = 0; i < sizeToUse; i++) {
             int sortToUse = scan.nextInt();
 
-            array[i] = scan.nextInt();
+            array[i] = sortToUse;
         }
         return array;
     }

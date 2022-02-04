@@ -10,7 +10,11 @@ public class BinaryTreeSearch implements SortInterface{
         return new BinaryTreeSearch();
     }
     public node root;
-
+    @Override
+    public String toString()
+    {
+        return "Binary Tree Search";
+    }
     private void addVoid(int value)
     {
         node newNode = new node(value);

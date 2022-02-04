@@ -17,13 +17,11 @@ public class DisplayManager {
 
     public static void main(String[] args) {
 
-        BinaryTreeSearch bs = new BinaryTreeSearch();
-        int[] newInt = {5,3,7,7,1,4};
-        bs.sort(newInt);
+        main();
     }
 
 
-    public void main()
+    public static void main()
     {
         SortFactory SI = new SortFactory();
         UserInputs ui = new UserInputs();

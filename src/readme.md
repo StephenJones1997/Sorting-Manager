@@ -149,4 +149,8 @@ For each method you can get back timing information, within the test folder ther
 
 ##Testing
 Testing has been done through the model view with a 90% code coverage. Testing was done on each of the classes individually, then again on the sorting manager and factory to make sure the classes are used properly.
-USer interface is not covered in this but has gone through manual testing.
+User interface is not covered in this but has gone through manual testing.
+Below you can see the results of the tests done on the Model Class.
+![img.png](img.png)
+
+The 

@@ -31,3 +31,6 @@ FILE [INFO ] 2022-02-04 12:55:32,442 main Sort Manager Logger - User Ran Merge S
 FILE [INFO ] 2022-02-04 12:56:03,982 main Sort Manager Logger - User Ran Bubble Sort, it took 80100 milliseconds, for an array with 5 6 4 2 7 
 FILE [INFO ] 2022-02-04 12:56:03,990 main Sort Manager Logger - User Ran Bubble Sort, it took 28300 milliseconds, for an array with 5 6 4 2 7 
 FILE [INFO ] 2022-02-04 12:56:03,994 main Sort Manager Logger - User Ran Merge Sort, it took 14500 milliseconds, for an array with 5 6 4 2 7 
+FILE [INFO ] 2022-02-04 13:45:09,542 main Sort Manager Logger - User Ran Bubble Sort, it took 69600 milliseconds, for an array with 4 6 1 3 2 
+FILE [INFO ] 2022-02-04 13:45:09,546 main Sort Manager Logger - User Ran Merge Sort, it took 7500 milliseconds, for an array with 4 6 1 3 2 
+FILE [INFO ] 2022-02-04 13:45:09,548 main Sort Manager Logger - User Ran com.sparta.Sorting.Model.BinaryTreeSearch@31e5415e, it took 424000 milliseconds, for an array with 4 6 1 3 2 
