@@ -1,5 +1,9 @@
 package com.sparta.Sorting.Model;
 
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
 public class BinaryTreeSearch implements SortInterface{
     @Override
     public SortInterface getInstance() {
@@ -23,7 +27,7 @@ public class BinaryTreeSearch implements SortInterface{
             {
                 parent = focus;
 
-                if(value < focus.value)
+                if(value <= focus.value)
                 {
                     focus = focus.leftChild;
 
@@ -46,14 +50,19 @@ public class BinaryTreeSearch implements SortInterface{
         }
 
     }
+    List<Integer> treeRebuild;
+
     private void inOrderTraverseTree(node focusNode)
     {
         if(focusNode != null)
         {
             inOrderTraverseTree(focusNode.leftChild);
-            System.out.println(focusNode);
+            treeRebuild.add(focusNode.value);
             inOrderTraverseTree(focusNode.rightChild);
         }
+
+
+
     }
     public void buildTree(int[] incoming)
     {
@@ -65,7 +74,18 @@ public class BinaryTreeSearch implements SortInterface{
     @Override
     public void sort(int[] incoming) {
         buildTree(incoming);
+        treeRebuild = new LinkedList<Integer>();
         inOrderTraverseTree(root);
+        int j = 0;
+        for (int i:
+             treeRebuild) {
+
+            incoming[j] = i;
+            j++;
+
+        }
+
+
     }
 
     public class node

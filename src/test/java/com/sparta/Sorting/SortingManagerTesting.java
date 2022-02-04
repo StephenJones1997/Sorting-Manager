@@ -26,7 +26,7 @@ public class SortingManagerTesting {
     void checkSortsAvailable() {
         SortFactory SI = new SortFactory();
         int stackSize = displaySearchMethods(SI.returnAvailableTypes());
-        Assertions.assertTrue(stackSize == 2);
+        Assertions.assertTrue(stackSize == 3);
     }
 
     @Test

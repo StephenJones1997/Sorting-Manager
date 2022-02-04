@@ -25,3 +25,9 @@ FILE [INFO ] 2022-02-03 16:58:00,405 main Sort Manager Logger - User Ran Merge S
 FILE [INFO ] 2022-02-03 17:01:07,583 main Sort Manager Logger - User Ran Bubble Sort, it took 51000 milliseconds, for an array with 5 6 4 2 7 
 FILE [INFO ] 2022-02-03 17:01:07,589 main Sort Manager Logger - User Ran Bubble Sort, it took 17000 milliseconds, for an array with 5 6 4 2 7 
 FILE [INFO ] 2022-02-03 17:01:07,591 main Sort Manager Logger - User Ran Merge Sort, it took 8300 milliseconds, for an array with 5 6 4 2 7 
+FILE [INFO ] 2022-02-04 12:55:32,424 main Sort Manager Logger - User Ran Bubble Sort, it took 60100 milliseconds, for an array with 5 6 4 2 7 
+FILE [INFO ] 2022-02-04 12:55:32,439 main Sort Manager Logger - User Ran Bubble Sort, it took 20500 milliseconds, for an array with 5 6 4 2 7 
+FILE [INFO ] 2022-02-04 12:55:32,442 main Sort Manager Logger - User Ran Merge Sort, it took 9300 milliseconds, for an array with 5 6 4 2 7 
+FILE [INFO ] 2022-02-04 12:56:03,982 main Sort Manager Logger - User Ran Bubble Sort, it took 80100 milliseconds, for an array with 5 6 4 2 7 
+FILE [INFO ] 2022-02-04 12:56:03,990 main Sort Manager Logger - User Ran Bubble Sort, it took 28300 milliseconds, for an array with 5 6 4 2 7 
+FILE [INFO ] 2022-02-04 12:56:03,994 main Sort Manager Logger - User Ran Merge Sort, it took 14500 milliseconds, for an array with 5 6 4 2 7 
