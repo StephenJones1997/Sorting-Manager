@@ -9,25 +9,20 @@ public class UserInputs {
 
     public int[] returnInputtedType(int amountOfSorts)
     {
-        System.out.println("Enter the number for the sorting type you would like");
+        System.out.println("Enter the number for the sorting type you would like, please make sure its more than 0");
 
         Scanner scan = new Scanner(System.in);
         int sizeToUse = scan.nextInt();
-
-        if(sizeToUse == 0)
-        {
-            System.out.println("You have chose 0, changing to 1 so you can sort something");
-            sizeToUse = 1;
-        }
-        else if(sizeToUse > amountOfSorts)
-        {
-            sizeToUse = amountOfSorts;
+        while(sizeToUse == 0) {
+            System.out.println("You have selected 0, please use at lease one");
+            sizeToUse = scan.nextInt();
         }
         int[] array = new int[sizeToUse];
 
         System.out.println("Enter each sort method you would like to use");
-        for (int i = 0; i < sizeToUse; i++)
-        {
+        for (int i = 0; i < sizeToUse; i++) {
+            int sortToUse = scan.nextInt();
+
             array[i] = scan.nextInt();
         }
         return array;
