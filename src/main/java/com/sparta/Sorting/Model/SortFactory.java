@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class SortFactory {
 
-    enum sortType {Bubble, Merge}
+    enum sortType {Bubble, Merge, BTS,}
     public SortInterface returnSort(int incoming)
     {
         SortInterface SI = null;
@@ -16,7 +16,10 @@ public class SortFactory {
         {
             SI = new MergeSort();
         }
-
+        if(incoming == 2)
+        {
+            SI = new BinaryTreeSearch();
+        }
         if(SI == null)
         {
             SI = new BubbleSort();

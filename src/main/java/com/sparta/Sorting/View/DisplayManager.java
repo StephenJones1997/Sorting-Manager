@@ -1,6 +1,7 @@
 package com.sparta.Sorting.View;
 
 import com.sparta.Sorting.Controller.UserInputs;
+import com.sparta.Sorting.Model.BinaryTreeSearch;
 import com.sparta.Sorting.Model.SortFactory;
 import com.sparta.Sorting.Model.SortInterface;
 import org.apache.logging.log4j.LogManager;
@@ -16,6 +17,14 @@ public class DisplayManager {
 
     public static void main(String[] args) {
 
+        BinaryTreeSearch bs = new BinaryTreeSearch();
+        int[] newInt = {5,3,7,1,4};
+        bs.sort(newInt);
+    }
+
+
+    public void main()
+    {
         SortFactory SI = new SortFactory();
         UserInputs ui = new UserInputs();
         //Display the Available Search Methods
